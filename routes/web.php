@@ -25,7 +25,7 @@ use \Illuminate\Support\Facades\File;
 Route::get('/', function () {
 
     return view('posts',[
-        'posts' => Post::latest()->with('category', 'author')->get()
+        'posts' => Post::with('category', 'author')->get()
     ]);
 });
 
