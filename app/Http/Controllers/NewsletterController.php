@@ -14,6 +14,7 @@ class NewsletterController extends Controller
 
         request()->validate(['email' => 'required|email']);
 
+
         try {
 
             $newsletter->subscribe(request('email'));

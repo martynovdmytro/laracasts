@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Http\Controllers\NewsletterController;
 use App\Services\Newsletter;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;

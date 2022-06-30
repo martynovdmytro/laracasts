@@ -6,7 +6,6 @@ use MailchimpMarketing\ApiClient;
 
 class Newsletter
 {
-
     public function subscribe(string $email)
     {
          return $this->client()->lists->addListMember( config('services.mailchimp.lists.subscribers'), [
