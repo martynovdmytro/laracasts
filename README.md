@@ -1,1 +1,1 @@
-This is my educational project created step by step according to Jeffrey Way's tutorial from https://laracasts.com.
+Educational project created on the Laravel framework step by step according to Jeffrey Way's tutorial from https://laracasts.com.
